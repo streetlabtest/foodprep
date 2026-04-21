@@ -1,0 +1,3303 @@
+{
+  "version": 1,
+  "locale": "en-FR",
+  "countryContext": "France",
+  "userProfile": "single student, low budget, small kitchen",
+  "supportedEquipment": [
+    "small pot",
+    "small pan",
+    "rice cooker",
+    "kettle",
+    "can opener",
+    "whisk",
+    "basic utensils"
+  ],
+  "stapleSuggestions": [
+    "rice",
+    "pasta",
+    "couscous",
+    "oats",
+    "olive oil",
+    "salt",
+    "pepper",
+    "garlic",
+    "onion",
+    "dijon mustard",
+    "canned tomatoes",
+    "broth cube",
+    "eggs",
+    "plain yogurt",
+    "fromage blanc",
+    "red lentils",
+    "chickpeas",
+    "white beans",
+    "tuna",
+    "sardines",
+    "frozen peas",
+    "frozen spinach",
+    "soy sauce",
+    "lemon juice",
+    "tea"
+  ],
+  "recipes": [
+    {
+      "id": "r1",
+      "title": "Tomato Egg Rice Bowl",
+      "prepMin": 15,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "very familiar and soft-textured.",
+      "tags": [
+        "rice",
+        "eggs",
+        "soft",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "salt",
+          "aisle": "Spices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice in the rice cooker.",
+          "timerMin": 12
+        },
+        {
+          "text": "Warm the tomatoes and spinach in a pan.",
+          "timerMin": 4
+        },
+        {
+          "text": "Whisk in the eggs and stir gently until softly set.",
+          "timerMin": 2
+        },
+        {
+          "text": "Spoon over the rice and eat warm."
+        }
+      ],
+      "substitutions": [
+        "Use frozen peas instead of spinach.",
+        "Use couscous instead of rice."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r2",
+      "title": "Red Lentil Tomato Soup",
+      "prepMin": 22,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 3,
+      "note": "minimal cleanup and filling.",
+      "tags": [
+        "soup",
+        "lentils",
+        "soft",
+        "leftovers"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "90 g"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "onion",
+          "aisle": "Produce",
+          "amount": "1/2"
+        },
+        {
+          "name": "broth cube",
+          "aisle": "Canned & Jarred",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "pepper",
+          "aisle": "Spices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Soften the onion in a little oil.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add lentils, tomatoes, the broth cube, and 500 ml water.",
+          "timerMin": 1
+        },
+        {
+          "text": "Simmer until the lentils are very soft.",
+          "timerMin": 15
+        },
+        {
+          "text": "Whisk or mash lightly for a smoother texture if wanted."
+        }
+      ],
+      "substitutions": [
+        "Use carrot instead of onion.",
+        "Add a spoon of yogurt at the end."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r3",
+      "title": "Yogurt Banana Oats Bowl",
+      "prepMin": 5,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "cold, predictable, and very fast.",
+      "tags": [
+        "breakfast",
+        "no-cook",
+        "backup",
+        "oats",
+        "rescue"
+      ],
+      "textures": [
+        "soft",
+        "cold"
+      ],
+      "equipment": [
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "200 g"
+        },
+        {
+          "name": "banana",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "oats",
+          "aisle": "Grains",
+          "amount": "40 g"
+        },
+        {
+          "name": "cinnamon",
+          "aisle": "Spices",
+          "amount": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Put the yogurt in a bowl."
+        },
+        {
+          "text": "Slice the banana on top."
+        },
+        {
+          "text": "Add oats and cinnamon. This counts as a meal."
+        }
+      ],
+      "substitutions": [
+        "Use fromage blanc instead of yogurt.",
+        "Use apple or pear instead of banana."
+      ],
+      "rescue": true
+    },
+    {
+      "id": "r4",
+      "title": "Tuna Sweetcorn Rice Bowl",
+      "prepMin": 12,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "little cooking and clear flavors.",
+      "tags": [
+        "rice",
+        "tuna",
+        "familiar"
+      ],
+      "textures": [
+        "soft",
+        "crisp"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "tuna",
+          "aisle": "Canned & Jarred",
+          "amount": "1 small can"
+        },
+        {
+          "name": "sweetcorn",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "cucumber",
+          "aisle": "Produce",
+          "amount": "1/4"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Drain the tuna and sweetcorn."
+        },
+        {
+          "text": "Slice the cucumber and stir yogurt with a little salt."
+        },
+        {
+          "text": "Build the bowl and eat warm or room temperature."
+        }
+      ],
+      "substitutions": [
+        "Use canned peas instead of sweetcorn.",
+        "Use couscous instead of rice."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r5",
+      "title": "Chickpea Couscous Bowl",
+      "prepMin": 10,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "kettle-friendly and low effort.",
+      "tags": [
+        "couscous",
+        "chickpeas",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot kettle water and a plate.",
+          "timerMin": 5
+        },
+        {
+          "text": "Drain the chickpeas and grate or finely chop the carrot."
+        },
+        {
+          "text": "Fluff the couscous and mix everything together with oil and lemon juice."
+        }
+      ],
+      "substitutions": [
+        "Use raisins for a slightly sweeter version.",
+        "Use canned lentils instead of chickpeas."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r6",
+      "title": "Sardine Tomato Pasta",
+      "prepMin": 15,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "cheap pantry meal with omega-3 rich fish.",
+      "tags": [
+        "pasta",
+        "sardines",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "sardines",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "garlic",
+          "aisle": "Produce",
+          "amount": "1 clove"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Warm garlic, tomatoes, and sardines in a pan, breaking the fish gently.",
+          "timerMin": 4
+        },
+        {
+          "text": "Toss with the pasta and serve."
+        }
+      ],
+      "substitutions": [
+        "Use tuna instead of sardines.",
+        "Add spinach if you want a vegetable boost."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r7",
+      "title": "Spinach Egg Pasta",
+      "prepMin": 14,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "soft and familiar with very few ingredients.",
+      "tags": [
+        "pasta",
+        "eggs",
+        "spinach",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "pepper",
+          "aisle": "Spices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Warm the spinach in a pan.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add the drained pasta and whisked eggs; stir off the heat until glossy and just set.",
+          "timerMin": 2
+        }
+      ],
+      "substitutions": [
+        "Use peas instead of spinach.",
+        "Add grated cheese if that feels more comfortable."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r8",
+      "title": "White Bean Garlic Soup",
+      "prepMin": 18,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 3,
+      "note": "gentle flavor and good on low-energy days.",
+      "tags": [
+        "soup",
+        "beans",
+        "soft"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "onion",
+          "aisle": "Produce",
+          "amount": "1/2"
+        },
+        {
+          "name": "garlic",
+          "aisle": "Produce",
+          "amount": "1 clove"
+        },
+        {
+          "name": "broth cube",
+          "aisle": "Canned & Jarred",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook onion and garlic in oil until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add beans, broth cube, and 400 ml water.",
+          "timerMin": 1
+        },
+        {
+          "text": "Simmer gently.",
+          "timerMin": 10
+        },
+        {
+          "text": "Mash some of the beans with a whisk for body and eat warm."
+        }
+      ],
+      "substitutions": [
+        "Use canned lentils instead of white beans.",
+        "Add spinach at the end."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r9",
+      "title": "Carrot Lentil Rice Pot",
+      "prepMin": 20,
+      "effort": 2,
+      "novelty": 1,
+      "servings": 2,
+      "note": "one-pot comfort meal with steady energy.",
+      "tags": [
+        "rice",
+        "lentils",
+        "carrot"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "60 g"
+        },
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "60 g"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "broth cube",
+          "aisle": "Canned & Jarred",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dice or grate the carrot."
+        },
+        {
+          "text": "Put rice, lentils, carrot, broth cube, and 500 ml water in a pot.",
+          "timerMin": 1
+        },
+        {
+          "text": "Simmer until soft, stirring once or twice.",
+          "timerMin": 18
+        }
+      ],
+      "substitutions": [
+        "Use couscous if you need a quicker version.",
+        "Add yogurt on top to soften the flavor."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r10",
+      "title": "Peanut Soy Noodles",
+      "prepMin": 15,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "one clear flavor and very filling.",
+      "tags": [
+        "noodles",
+        "peanut",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "noodles",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "peanut butter",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the noodles.",
+          "timerMin": 8
+        },
+        {
+          "text": "Stir peanut butter and soy sauce with a splash of hot water until smooth."
+        },
+        {
+          "text": "Add peas for the last 2 minutes, then drain and coat the noodles."
+        }
+      ],
+      "substitutions": [
+        "Use pasta if noodles are cheaper.",
+        "Use sunflower seed butter if needed."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r11",
+      "title": "Fromage Blanc Apple Oats Bowl",
+      "prepMin": 5,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "ultra-simple backup with protein and fruit.",
+      "tags": [
+        "no-cook",
+        "backup",
+        "rescue",
+        "oats"
+      ],
+      "textures": [
+        "soft",
+        "cold",
+        "crisp"
+      ],
+      "equipment": [
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "fromage blanc",
+          "aisle": "Fridge",
+          "amount": "200 g"
+        },
+        {
+          "name": "apple",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "oats",
+          "aisle": "Grains",
+          "amount": "40 g"
+        },
+        {
+          "name": "honey",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Put the fromage blanc in a bowl."
+        },
+        {
+          "text": "Add grated or finely chopped apple."
+        },
+        {
+          "text": "Scatter oats on top. This is enough for a meal."
+        }
+      ],
+      "substitutions": [
+        "Use yogurt instead of fromage blanc.",
+        "Use pear instead of apple."
+      ],
+      "rescue": true
+    },
+    {
+      "id": "r12",
+      "title": "Rice Cooker Pea Egg Rice",
+      "prepMin": 18,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "very manageable and uses mostly staples.",
+      "tags": [
+        "rice",
+        "eggs",
+        "peas",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice in the rice cooker.",
+          "timerMin": 12
+        },
+        {
+          "text": "When nearly done, stir in peas and crack in the eggs.",
+          "timerMin": 1
+        },
+        {
+          "text": "Close the lid until the eggs set softly.",
+          "timerMin": 4
+        },
+        {
+          "text": "Season with soy sauce."
+        }
+      ],
+      "substitutions": [
+        "Add spinach instead of peas.",
+        "Use a pan if the rice cooker is busy."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r13",
+      "title": "Courgette Tomato Couscous",
+      "prepMin": 16,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "soft vegetables and very little cleanup.",
+      "tags": [
+        "couscous",
+        "courgette",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "courgette",
+          "aisle": "Produce",
+          "amount": "1 small"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "150 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water and let it stand.",
+          "timerMin": 5
+        },
+        {
+          "text": "Cook chopped courgette in a pan with oil until soft.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add tomatoes, then fold through the couscous."
+        }
+      ],
+      "substitutions": [
+        "Use carrot instead of courgette.",
+        "Add chickpeas for more protein."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r14",
+      "title": "Tomato Chickpea Pasta",
+      "prepMin": 17,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "cheap pantry meal with fiber and protein.",
+      "tags": [
+        "pasta",
+        "chickpeas",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "oregano",
+          "aisle": "Spices",
+          "amount": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Warm chickpeas and tomatoes in a pan.",
+          "timerMin": 5
+        },
+        {
+          "text": "Toss together and season lightly."
+        }
+      ],
+      "substitutions": [
+        "Use white beans instead of chickpeas.",
+        "Add spinach if desired."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r15",
+      "title": "Mushroom Pea Rice",
+      "prepMin": 18,
+      "effort": 2,
+      "novelty": 1,
+      "servings": 2,
+      "note": "savory and straightforward.",
+      "tags": [
+        "rice",
+        "mushrooms",
+        "peas"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "mushrooms",
+          "aisle": "Produce",
+          "amount": "150 g"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "pepper",
+          "aisle": "Spices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Cook sliced mushrooms in a pan until soft.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add peas for the last 2 minutes and serve over rice."
+        }
+      ],
+      "substitutions": [
+        "Use courgette instead of mushrooms.",
+        "Add an egg on top for more protein."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r16",
+      "title": "Tuna White Bean Salad",
+      "prepMin": 8,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "no-cook and still balanced.",
+      "tags": [
+        "no-cook",
+        "tuna",
+        "beans",
+        "protein"
+      ],
+      "textures": [
+        "soft",
+        "crisp"
+      ],
+      "equipment": [
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "tuna",
+          "aisle": "Canned & Jarred",
+          "amount": "1 small can"
+        },
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "tomato",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "cucumber",
+          "aisle": "Produce",
+          "amount": "1/4"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Drain the tuna and beans."
+        },
+        {
+          "text": "Chop the tomato and cucumber."
+        },
+        {
+          "text": "Mix everything together with a little oil and salt."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of white beans.",
+        "Use sardines instead of tuna."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r17",
+      "title": "Lentil Dijon Potato Salad",
+      "prepMin": 20,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 3,
+      "note": "good leftover meal with gentle tang.",
+      "tags": [
+        "potatoes",
+        "lentils",
+        "salad"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "aisle": "Produce",
+          "amount": "250 g"
+        },
+        {
+          "name": "green lentils",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "dijon mustard",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "onion",
+          "aisle": "Produce",
+          "amount": "1/4"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the potatoes until tender.",
+          "timerMin": 15
+        },
+        {
+          "text": "Drain and slice them."
+        },
+        {
+          "text": "Mix mustard with yogurt and stir through the potatoes, lentils, and a little onion."
+        }
+      ],
+      "substitutions": [
+        "Use white beans if lentils are unavailable.",
+        "Skip the onion for a softer flavor."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r18",
+      "title": "Simple Apple Porridge",
+      "prepMin": 8,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "warm, predictable, and cheap.",
+      "tags": [
+        "porridge",
+        "oats",
+        "soft",
+        "breakfast"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "oats",
+          "aisle": "Grains",
+          "amount": "50 g"
+        },
+        {
+          "name": "milk",
+          "aisle": "Fridge",
+          "amount": "200 ml"
+        },
+        {
+          "name": "apple",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "cinnamon",
+          "aisle": "Spices",
+          "amount": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook oats and milk in a small pot, stirring often.",
+          "timerMin": 5
+        },
+        {
+          "text": "Grate or chop the apple."
+        },
+        {
+          "text": "Add apple and cinnamon and warm through briefly.",
+          "timerMin": 2
+        }
+      ],
+      "substitutions": [
+        "Use water plus yogurt if milk is not on hand.",
+        "Use pear or banana instead of apple."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r19",
+      "title": "Leek White Bean Pasta",
+      "prepMin": 18,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "mild and comforting with soft vegetables.",
+      "tags": [
+        "pasta",
+        "beans",
+        "leek"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "leek",
+          "aisle": "Produce",
+          "amount": "1 small"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Cook sliced leek in oil until very soft.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add beans and a spoon of pasta water, then stir in yogurt off the heat and toss with pasta."
+        }
+      ],
+      "substitutions": [
+        "Use onion instead of leek.",
+        "Use chickpeas instead of white beans."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r20",
+      "title": "Rice with Peas and Scrambled Egg",
+      "prepMin": 15,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "familiar, soft, and very manageable.",
+      "tags": [
+        "rice",
+        "eggs",
+        "peas",
+        "familiar"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "butter",
+          "aisle": "Fridge",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Warm the peas in a pan.",
+          "timerMin": 2
+        },
+        {
+          "text": "Scramble the eggs gently with a little butter.",
+          "timerMin": 2
+        },
+        {
+          "text": "Serve the eggs and peas over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use spinach instead of peas.",
+        "Use couscous if you need it faster."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r21",
+      "title": "Sardine Potato Salad",
+      "prepMin": 18,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "good if canned fish feels safer than raw prep.",
+      "tags": [
+        "sardines",
+        "potatoes",
+        "salad"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "aisle": "Produce",
+          "amount": "250 g"
+        },
+        {
+          "name": "sardines",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "cucumber",
+          "aisle": "Produce",
+          "amount": "1/4"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the potatoes until tender.",
+          "timerMin": 15
+        },
+        {
+          "text": "Drain and cool slightly."
+        },
+        {
+          "text": "Mix with sardines, yogurt, lemon juice, and cucumber."
+        }
+      ],
+      "substitutions": [
+        "Use tuna instead of sardines.",
+        "Use canned lentils if you do not want potatoes."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r22",
+      "title": "Tomato Olive Pasta",
+      "prepMin": 14,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "salty, simple, and pantry-based.",
+      "tags": [
+        "pasta",
+        "tomato",
+        "olives"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "olives",
+          "aisle": "Canned & Jarred",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Warm tomatoes and olives in a pan.",
+          "timerMin": 3
+        },
+        {
+          "text": "Toss together and eat."
+        }
+      ],
+      "substitutions": [
+        "Add tuna for more protein.",
+        "Use capers instead of olives."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r23",
+      "title": "Egg Spinach Couscous Bowl",
+      "prepMin": 12,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "kettle and pan only, with very low cleanup.",
+      "tags": [
+        "couscous",
+        "eggs",
+        "spinach"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Warm the spinach in a pan.",
+          "timerMin": 2
+        },
+        {
+          "text": "Scramble the eggs gently and serve everything together.",
+          "timerMin": 3
+        }
+      ],
+      "substitutions": [
+        "Use peas instead of spinach.",
+        "Use rice instead of couscous."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r24",
+      "title": "White Bean Tomato Skillet",
+      "prepMin": 14,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 3,
+      "note": "very soft and good with bread or rice.",
+      "tags": [
+        "beans",
+        "tomato",
+        "soft",
+        "leftovers"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "garlic",
+          "aisle": "Produce",
+          "amount": "1 clove"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the garlic in a little oil.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add tomatoes and beans and simmer gently.",
+          "timerMin": 10
+        },
+        {
+          "text": "Mash a few beans if you want it thicker."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of white beans.",
+        "Add spinach at the end."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r25",
+      "title": "Carrot Cumin Lentil Soup",
+      "prepMin": 22,
+      "effort": 1,
+      "novelty": 2,
+      "servings": 3,
+      "note": "warm and gentle with a little extra flavor.",
+      "tags": [
+        "soup",
+        "lentils",
+        "carrot"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "90 g"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "2"
+        },
+        {
+          "name": "cumin",
+          "aisle": "Spices",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "broth cube",
+          "aisle": "Canned & Jarred",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the chopped carrots in oil with cumin.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add lentils, broth cube, and 500 ml water.",
+          "timerMin": 1
+        },
+        {
+          "text": "Simmer until soft.",
+          "timerMin": 15
+        },
+        {
+          "text": "Whisk lightly if you want it smoother."
+        }
+      ],
+      "substitutions": [
+        "Use curry powder instead of cumin.",
+        "Add yogurt on top."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r26",
+      "title": "Yogurt Chickpea Cucumber Bowl",
+      "prepMin": 8,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "cool, simple, and no heat required.",
+      "tags": [
+        "no-cook",
+        "chickpeas",
+        "yogurt"
+      ],
+      "textures": [
+        "soft",
+        "cold",
+        "crisp"
+      ],
+      "equipment": [
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "150 g"
+        },
+        {
+          "name": "cucumber",
+          "aisle": "Produce",
+          "amount": "1/2"
+        },
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "40 g"
+        }
+      ],
+      "steps": [
+        {
+          "text": "If you want, soak the couscous with a little hot kettle water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Drain the chickpeas and chop the cucumber."
+        },
+        {
+          "text": "Stir everything together with a little salt and eat cold or room temperature."
+        }
+      ],
+      "substitutions": [
+        "Use white beans instead of chickpeas.",
+        "Use rice left from another day instead of couscous."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r27",
+      "title": "Tomato Tuna Couscous Pot",
+      "prepMin": 12,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "pantry-based and very quick.",
+      "tags": [
+        "couscous",
+        "tuna",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "tuna",
+          "aisle": "Canned & Jarred",
+          "amount": "1 small can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "150 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Drain the tuna."
+        },
+        {
+          "text": "Warm the tomatoes if you want, then mix with the couscous and tuna."
+        }
+      ],
+      "substitutions": [
+        "Use sardines instead of tuna.",
+        "Add sweetcorn if that feels familiar."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r28",
+      "title": "Creamy Pea Pasta",
+      "prepMin": 13,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "soft, mild, and reliable.",
+      "tags": [
+        "pasta",
+        "peas",
+        "creaminess"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "black pepper",
+          "aisle": "Spices",
+          "amount": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Add peas for the last 2 minutes."
+        },
+        {
+          "text": "Drain, then stir in yogurt and pepper off the heat."
+        }
+      ],
+      "substitutions": [
+        "Use fromage blanc instead of yogurt.",
+        "Add grated cheese if wanted."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r29",
+      "title": "Lentil Carrot Bowl",
+      "prepMin": 16,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "steady and inexpensive with simple flavors.",
+      "tags": [
+        "lentils",
+        "carrot",
+        "grain-bowl"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "green lentils",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Grate or finely chop the carrot."
+        },
+        {
+          "text": "Drain the lentils and mix everything together with oil and lemon juice."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of lentils.",
+        "Use rice instead of couscous."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r30",
+      "title": "Garlic Spinach Rice with Egg",
+      "prepMin": 16,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "simple rice bowl that feels like a full meal.",
+      "tags": [
+        "rice",
+        "spinach",
+        "eggs"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "garlic",
+          "aisle": "Produce",
+          "amount": "1 clove"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Cook garlic and spinach in a pan.",
+          "timerMin": 3
+        },
+        {
+          "text": "Scramble the eggs softly in the same pan.",
+          "timerMin": 2
+        },
+        {
+          "text": "Serve over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use peas instead of spinach.",
+        "Use couscous if you need less time."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r31",
+      "title": "Chickpea Spinach Curry Rice",
+      "prepMin": 20,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 3,
+      "note": "gentle stretch with familiar pantry ingredients.",
+      "tags": [
+        "rice",
+        "chickpeas",
+        "curry",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "curry powder",
+          "aisle": "Spices",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Warm tomatoes with curry powder in a pan.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add chickpeas and spinach and simmer until hot.",
+          "timerMin": 5
+        },
+        {
+          "text": "Serve over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use lentils instead of chickpeas.",
+        "Stir in yogurt if you want a softer flavor."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r32",
+      "title": "Tofu Broccoli Rice Bowl",
+      "prepMin": 22,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "a mild stretch if tofu is acceptable.",
+      "tags": [
+        "rice",
+        "tofu",
+        "stretch"
+      ],
+      "textures": [
+        "soft",
+        "firm"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "firm tofu",
+          "aisle": "Fridge",
+          "amount": "150 g"
+        },
+        {
+          "name": "broccoli",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Cook tofu cubes in a little oil until warmed and lightly colored.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add broccoli and soy sauce and cook until tender.",
+          "timerMin": 4
+        },
+        {
+          "text": "Serve over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use egg instead of tofu.",
+        "Use peas instead of broccoli."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r33",
+      "title": "Harissa Egg Tomato Skillet",
+      "prepMin": 14,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "a little bolder, but still one pan.",
+      "tags": [
+        "eggs",
+        "tomato",
+        "harissa",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "harissa",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "bread",
+          "aisle": "Bakery",
+          "amount": "2 slices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Warm the tomatoes with a little harissa.",
+          "timerMin": 4
+        },
+        {
+          "text": "Crack in the eggs and cover the pan until set to your liking.",
+          "timerMin": 5
+        },
+        {
+          "text": "Eat with bread or over rice."
+        }
+      ],
+      "substitutions": [
+        "Use paprika instead of harissa for a softer version.",
+        "Use couscous instead of bread."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r34",
+      "title": "Couscous with Chickpeas and Raisins",
+      "prepMin": 10,
+      "effort": 1,
+      "novelty": 3,
+      "servings": 2,
+      "note": "slightly sweet-salty and still very easy.",
+      "tags": [
+        "couscous",
+        "chickpeas",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "raisins",
+          "aisle": "Bakery",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "cumin",
+          "aisle": "Spices",
+          "amount": "1/2 tsp"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Drain the chickpeas."
+        },
+        {
+          "text": "Fluff the couscous and mix in chickpeas, raisins, cumin, and oil."
+        }
+      ],
+      "substitutions": [
+        "Use lentils instead of chickpeas.",
+        "Skip raisins if sweet notes are not comfortable."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r35",
+      "title": "Mackerel Lemon Potato Bowl",
+      "prepMin": 18,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "rich and filling with pantry fish.",
+      "tags": [
+        "mackerel",
+        "potatoes",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "aisle": "Produce",
+          "amount": "250 g"
+        },
+        {
+          "name": "mackerel",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the potatoes until tender.",
+          "timerMin": 15
+        },
+        {
+          "text": "Drain and crush lightly in a bowl."
+        },
+        {
+          "text": "Top with mackerel, yogurt, and lemon juice."
+        }
+      ],
+      "substitutions": [
+        "Use sardines instead of mackerel.",
+        "Add cucumber for freshness."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r36",
+      "title": "Peanut Chickpea Noodles",
+      "prepMin": 16,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "a gentle stretch if peanut sauces are comfortable.",
+      "tags": [
+        "noodles",
+        "chickpeas",
+        "peanut",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "noodles",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "peanut butter",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the noodles.",
+          "timerMin": 8
+        },
+        {
+          "text": "Stir peanut butter and soy sauce with hot water."
+        },
+        {
+          "text": "Drain chickpeas, grate the carrot, and toss everything together."
+        }
+      ],
+      "substitutions": [
+        "Use pasta if noodles are not available.",
+        "Use sunflower seed butter if needed."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r37",
+      "title": "Tomato Lentil Coconut Rice",
+      "prepMin": 24,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 3,
+      "note": "soft, filling, and slightly richer.",
+      "tags": [
+        "rice",
+        "lentils",
+        "coconut",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "60 g"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "150 g"
+        },
+        {
+          "name": "coconut milk",
+          "aisle": "Canned & Jarred",
+          "amount": "100 ml"
+        },
+        {
+          "name": "curry powder",
+          "aisle": "Spices",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Simmer lentils, tomatoes, coconut milk, curry powder, and 200 ml water.",
+          "timerMin": 12
+        },
+        {
+          "text": "Serve the lentils over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use yogurt instead of coconut milk for a cheaper option.",
+        "Use chickpeas instead of red lentils."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r38",
+      "title": "Tomato Courgette White Bean Pasta",
+      "prepMin": 20,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "vegetable-forward but still familiar.",
+      "tags": [
+        "pasta",
+        "white beans",
+        "courgette"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "courgette",
+          "aisle": "Produce",
+          "amount": "1 small"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Cook chopped courgette in oil until soft.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add tomatoes and beans, simmer briefly, then toss with pasta.",
+          "timerMin": 4
+        }
+      ],
+      "substitutions": [
+        "Use carrot instead of courgette.",
+        "Use chickpeas instead of white beans."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r39",
+      "title": "Mustard Lentil Warm Salad",
+      "prepMin": 15,
+      "effort": 1,
+      "novelty": 2,
+      "servings": 3,
+      "note": "good leftover meal with a familiar French flavor note.",
+      "tags": [
+        "lentils",
+        "mustard",
+        "salad"
+      ],
+      "textures": [
+        "soft",
+        "crisp"
+      ],
+      "equipment": [
+        "pot",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "green lentils",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "potatoes",
+          "aisle": "Produce",
+          "amount": "200 g"
+        },
+        {
+          "name": "dijon mustard",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the potatoes until tender.",
+          "timerMin": 12
+        },
+        {
+          "text": "Drain the lentils and grate the carrot."
+        },
+        {
+          "text": "Mix mustard and oil, then toss everything together while the potatoes are still warm."
+        }
+      ],
+      "substitutions": [
+        "Use yogurt in the dressing for a milder result.",
+        "Use white beans instead of lentils."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r40",
+      "title": "Red Lentil Dhal-Style Soup",
+      "prepMin": 22,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 3,
+      "note": "one-pot and soothing if warm spices are okay.",
+      "tags": [
+        "soup",
+        "lentils",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot"
+      ],
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "90 g"
+        },
+        {
+          "name": "onion",
+          "aisle": "Produce",
+          "amount": "1/2"
+        },
+        {
+          "name": "curry powder",
+          "aisle": "Spices",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "coconut milk",
+          "aisle": "Canned & Jarred",
+          "amount": "100 ml"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook onion in oil with curry powder.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add lentils, coconut milk, and 400 ml water.",
+          "timerMin": 1
+        },
+        {
+          "text": "Simmer until the lentils are soft.",
+          "timerMin": 15
+        },
+        {
+          "text": "Whisk briefly for a smoother texture if wanted."
+        }
+      ],
+      "substitutions": [
+        "Use yogurt instead of coconut milk.",
+        "Serve over rice to make it more substantial."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r41",
+      "title": "Sardine Lemon Pasta with Spinach",
+      "prepMin": 16,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "slightly brighter than basic tomato pasta.",
+      "tags": [
+        "pasta",
+        "sardines",
+        "spinach",
+        "stretch"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "aisle": "Grains",
+          "amount": "80 g"
+        },
+        {
+          "name": "sardines",
+          "aisle": "Canned & Jarred",
+          "amount": "1 can"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "lemon juice",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the pasta.",
+          "timerMin": 10
+        },
+        {
+          "text": "Warm sardines and spinach gently in a pan.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add lemon juice, toss with the pasta, and serve."
+        }
+      ],
+      "substitutions": [
+        "Use tuna instead of sardines.",
+        "Use peas instead of spinach."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r42",
+      "title": "Courgette Chickpea Tomato Rice",
+      "prepMin": 22,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 3,
+      "note": "a balanced rice pan with soft vegetables.",
+      "tags": [
+        "rice",
+        "chickpeas",
+        "courgette"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "courgette",
+          "aisle": "Produce",
+          "amount": "1 small"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "150 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Cook courgette in oil until soft.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add tomatoes and chickpeas and simmer briefly.",
+          "timerMin": 4
+        },
+        {
+          "text": "Serve with the rice."
+        }
+      ],
+      "substitutions": [
+        "Use frozen spinach instead of courgette.",
+        "Use lentils instead of chickpeas."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r43",
+      "title": "Peanut Tofu Couscous Bowl",
+      "prepMin": 18,
+      "effort": 2,
+      "novelty": 3,
+      "servings": 2,
+      "note": "soft grain bowl with a mild protein stretch.",
+      "tags": [
+        "couscous",
+        "tofu",
+        "peanut",
+        "stretch"
+      ],
+      "textures": [
+        "soft",
+        "firm"
+      ],
+      "equipment": [
+        "kettle",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "firm tofu",
+          "aisle": "Fridge",
+          "amount": "150 g"
+        },
+        {
+          "name": "peanut butter",
+          "aisle": "Condiments",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Warm tofu in a pan.",
+          "timerMin": 5
+        },
+        {
+          "text": "Stir peanut butter and soy sauce with a little hot water and pour over the bowl with grated carrot."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of tofu.",
+        "Use sunflower seed butter if needed."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r44",
+      "title": "Tomato Bean Rice Skillet",
+      "prepMin": 18,
+      "effort": 1,
+      "novelty": 2,
+      "servings": 3,
+      "note": "very manageable and built from low-cost staples.",
+      "tags": [
+        "rice",
+        "beans",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "sweetcorn",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice.",
+          "timerMin": 12
+        },
+        {
+          "text": "Warm beans, tomatoes, and sweetcorn in a pan.",
+          "timerMin": 5
+        },
+        {
+          "text": "Serve over the rice."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of white beans.",
+        "Add a fried egg on top if wanted."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r45",
+      "title": "Warm Potato Egg Spinach Salad",
+      "prepMin": 20,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "soft textures and good satiety.",
+      "tags": [
+        "potatoes",
+        "eggs",
+        "spinach"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "pot",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "aisle": "Produce",
+          "amount": "250 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "spinach",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        },
+        {
+          "name": "dijon mustard",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the potatoes until tender.",
+          "timerMin": 15
+        },
+        {
+          "text": "Hard-boil or soft-boil the eggs in the same pot.",
+          "timerMin": 7
+        },
+        {
+          "text": "Warm the spinach briefly, then mix everything with mustard and yogurt."
+        }
+      ],
+      "substitutions": [
+        "Use peas instead of spinach.",
+        "Use canned lentils if potatoes feel too heavy."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r46",
+      "title": "Rice Cooker Tomato Lentils",
+      "prepMin": 24,
+      "effort": 1,
+      "novelty": 2,
+      "servings": 3,
+      "note": "hands-off and good for low motivation days.",
+      "tags": [
+        "rice-cooker",
+        "lentils",
+        "tomato",
+        "backup"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker"
+      ],
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "aisle": "Grains",
+          "amount": "90 g"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "200 g"
+        },
+        {
+          "name": "broth cube",
+          "aisle": "Canned & Jarred",
+          "amount": "1"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Put lentils, tomatoes, broth cube, oil, and 500 ml water in the rice cooker.",
+          "timerMin": 1
+        },
+        {
+          "text": "Cook until very soft.",
+          "timerMin": 22
+        },
+        {
+          "text": "Whisk lightly and eat as a thick soup or over rice."
+        }
+      ],
+      "substitutions": [
+        "Stir in yogurt after cooking for a milder taste.",
+        "Add spinach in the last few minutes."
+      ],
+      "rescue": true
+    },
+    {
+      "id": "r47",
+      "title": "Semolina Yogurt Fruit Bowl",
+      "prepMin": 7,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "kettle-only backup that feels gentle.",
+      "tags": [
+        "backup",
+        "rescue",
+        "no-cook",
+        "couscous"
+      ],
+      "textures": [
+        "soft",
+        "cold"
+      ],
+      "equipment": [
+        "kettle",
+        "bowl"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "40 g"
+        },
+        {
+          "name": "plain yogurt",
+          "aisle": "Fridge",
+          "amount": "150 g"
+        },
+        {
+          "name": "banana",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "honey",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wet the couscous with a little hot water so it softens quickly.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add yogurt and sliced banana."
+        },
+        {
+          "text": "Drizzle with honey if wanted. This is enough for now."
+        }
+      ],
+      "substitutions": [
+        "Use oats instead of couscous.",
+        "Use fromage blanc instead of yogurt."
+      ],
+      "rescue": true
+    },
+    {
+      "id": "r48",
+      "title": "Hummus Chickpea Cucumber Plate",
+      "prepMin": 6,
+      "effort": 1,
+      "novelty": 1,
+      "servings": 2,
+      "note": "ultra-easy no-cook fallback.",
+      "tags": [
+        "backup",
+        "rescue",
+        "no-cook",
+        "hummus"
+      ],
+      "textures": [
+        "soft",
+        "crisp"
+      ],
+      "equipment": [
+        "plate"
+      ],
+      "ingredients": [
+        {
+          "name": "hummus",
+          "aisle": "Fridge",
+          "amount": "100 g"
+        },
+        {
+          "name": "chickpeas",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "cucumber",
+          "aisle": "Produce",
+          "amount": "1/2"
+        },
+        {
+          "name": "bread",
+          "aisle": "Bakery",
+          "amount": "2 slices"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Put hummus on a plate or in a bowl."
+        },
+        {
+          "text": "Add drained chickpeas and sliced cucumber."
+        },
+        {
+          "text": "Eat with bread. Packaged foods are allowed here."
+        }
+      ],
+      "substitutions": [
+        "Use crackers instead of bread.",
+        "Use yogurt instead of hummus if needed."
+      ],
+      "rescue": true
+    },
+    {
+      "id": "r49",
+      "title": "Warm White Bean Tomato Couscous",
+      "prepMin": 12,
+      "effort": 1,
+      "novelty": 2,
+      "servings": 2,
+      "note": "very cheap and easy to scale.",
+      "tags": [
+        "couscous",
+        "white beans",
+        "tomato"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "kettle",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "couscous",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "white beans",
+          "aisle": "Canned & Jarred",
+          "amount": "1/2 can"
+        },
+        {
+          "name": "canned tomatoes",
+          "aisle": "Canned & Jarred",
+          "amount": "150 g"
+        },
+        {
+          "name": "olive oil",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cover the couscous with hot water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Warm beans and tomatoes in a pan.",
+          "timerMin": 4
+        },
+        {
+          "text": "Spoon over the couscous and eat warm."
+        }
+      ],
+      "substitutions": [
+        "Use chickpeas instead of white beans.",
+        "Add spinach if you want more vegetables."
+      ],
+      "rescue": false
+    },
+    {
+      "id": "r50",
+      "title": "Carrot Egg Fried Rice-Style Bowl",
+      "prepMin": 16,
+      "effort": 2,
+      "novelty": 2,
+      "servings": 2,
+      "note": "a gentle stretch from plain rice and eggs.",
+      "tags": [
+        "rice",
+        "eggs",
+        "carrot"
+      ],
+      "textures": [
+        "soft"
+      ],
+      "equipment": [
+        "rice-cooker",
+        "pan"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "aisle": "Grains",
+          "amount": "75 g"
+        },
+        {
+          "name": "eggs",
+          "aisle": "Fridge",
+          "amount": "2"
+        },
+        {
+          "name": "carrot",
+          "aisle": "Produce",
+          "amount": "1"
+        },
+        {
+          "name": "soy sauce",
+          "aisle": "Condiments",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "frozen peas",
+          "aisle": "Frozen",
+          "amount": "1 handful"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice and let it cool a little if you have time.",
+          "timerMin": 12
+        },
+        {
+          "text": "Cook grated carrot and peas in a pan.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add rice and whisked eggs and stir until the eggs set.",
+          "timerMin": 3
+        },
+        {
+          "text": "Season with soy sauce."
+        }
+      ],
+      "substitutions": [
+        "Use couscous for a softer, quicker version.",
+        "Use spinach instead of peas."
+      ],
+      "rescue": false
+    }
+  ]
+}
