@@ -47,13 +47,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "very familiar and soft-textured.",
-      "tags": [
-        "rice",
-        "eggs",
-        "soft",
-        "familiar"
-      ],
+      "note": "soft texture.",
       "textures": [
         "soft"
       ],
@@ -122,13 +116,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 3,
-      "note": "minimal cleanup and filling.",
-      "tags": [
-        "soup",
-        "lentils",
-        "soft",
-        "leftovers"
-      ],
+      "note": "good leftover soup.",
       "textures": [
         "soft"
       ],
@@ -196,14 +184,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "cold, predictable, and very fast.",
-      "tags": [
-        "breakfast",
-        "no-cook",
-        "backup",
-        "oats",
-        "rescue"
-      ],
+      "note": "no-cook; 5 minutes.",
       "textures": [
         "soft",
         "cold"
@@ -257,12 +238,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "little cooking and clear flavors.",
-      "tags": [
-        "rice",
-        "tuna",
-        "familiar"
-      ],
+      "note": "rice cooker bowl.",
       "textures": [
         "soft",
         "crisp"
@@ -326,12 +302,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "kettle-friendly and low effort.",
-      "tags": [
-        "couscous",
-        "chickpeas",
-        "familiar"
-      ],
+      "note": "kettle-only meal.",
       "textures": [
         "soft"
       ],
@@ -391,12 +362,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "cheap pantry meal with omega-3 rich fish.",
-      "tags": [
-        "pasta",
-        "sardines",
-        "tomato"
-      ],
+      "note": "uses one can of sardines.",
       "textures": [
         "soft"
       ],
@@ -457,13 +423,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "soft and familiar with very few ingredients.",
-      "tags": [
-        "pasta",
-        "eggs",
-        "spinach",
-        "familiar"
-      ],
+      "note": "few ingredients.",
       "textures": [
         "soft"
       ],
@@ -524,12 +484,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 3,
-      "note": "gentle flavor and good on low-energy days.",
-      "tags": [
-        "soup",
-        "beans",
-        "soft"
-      ],
+      "note": "one-pot soup.",
       "textures": [
         "soft"
       ],
@@ -593,12 +548,7 @@
       "effort": 2,
       "novelty": 1,
       "servings": 2,
-      "note": "one-pot comfort meal with steady energy.",
-      "tags": [
-        "rice",
-        "lentils",
-        "carrot"
-      ],
+      "note": "one-pot rice and lentils.",
       "textures": [
         "soft"
       ],
@@ -658,12 +608,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "one clear flavor and very filling.",
-      "tags": [
-        "noodles",
-        "peanut",
-        "familiar"
-      ],
+      "note": "pantry noodles.",
       "textures": [
         "soft"
       ],
@@ -718,13 +663,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "ultra-simple backup with protein and fruit.",
-      "tags": [
-        "no-cook",
-        "backup",
-        "rescue",
-        "oats"
-      ],
+      "note": "no-cook backup.",
       "textures": [
         "soft",
         "cold",
@@ -779,13 +718,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "very manageable and uses mostly staples.",
-      "tags": [
-        "rice",
-        "eggs",
-        "peas",
-        "familiar"
-      ],
+      "note": "rice cooker only.",
       "textures": [
         "soft"
       ],
@@ -844,12 +777,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "soft vegetables and very little cleanup.",
-      "tags": [
-        "couscous",
-        "courgette",
-        "tomato"
-      ],
+      "note": "very little cleanup.",
       "textures": [
         "soft"
       ],
@@ -905,12 +833,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "cheap pantry meal with fiber and protein.",
-      "tags": [
-        "pasta",
-        "chickpeas",
-        "tomato"
-      ],
+      "note": "good leftover pasta.",
       "textures": [
         "soft"
       ],
@@ -971,12 +894,7 @@
       "effort": 2,
       "novelty": 1,
       "servings": 2,
-      "note": "savory and straightforward.",
-      "tags": [
-        "rice",
-        "mushrooms",
-        "peas"
-      ],
+      "note": "savory rice bowl.",
       "textures": [
         "soft"
       ],
@@ -1036,13 +954,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "no-cook and still balanced.",
-      "tags": [
-        "no-cook",
-        "tuna",
-        "beans",
-        "protein"
-      ],
+      "note": "no-cook protein bowl.",
       "textures": [
         "soft",
         "crisp"
@@ -1101,12 +1013,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 3,
-      "note": "good leftover meal with gentle tang.",
-      "tags": [
-        "potatoes",
-        "lentils",
-        "salad"
-      ],
+      "note": "good leftover meal.",
       "textures": [
         "soft"
       ],
@@ -1166,13 +1073,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "warm, predictable, and cheap.",
-      "tags": [
-        "porridge",
-        "oats",
-        "soft",
-        "breakfast"
-      ],
+      "note": "warm breakfast bowl.",
       "textures": [
         "soft"
       ],
@@ -1227,12 +1128,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "mild and comforting with soft vegetables.",
-      "tags": [
-        "pasta",
-        "beans",
-        "leek"
-      ],
+      "note": "soft vegetables.",
       "textures": [
         "soft"
       ],
@@ -1293,13 +1189,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "familiar, soft, and very manageable.",
-      "tags": [
-        "rice",
-        "eggs",
-        "peas",
-        "familiar"
-      ],
+      "note": "rice, peas, and egg.",
       "textures": [
         "soft"
       ],
@@ -1359,12 +1249,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "good if canned fish feels safer than raw prep.",
-      "tags": [
-        "sardines",
-        "potatoes",
-        "salad"
-      ],
+      "note": "uses one can of sardines.",
       "textures": [
         "soft"
       ],
@@ -1424,12 +1309,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "salty, simple, and pantry-based.",
-      "tags": [
-        "pasta",
-        "tomato",
-        "olives"
-      ],
+      "note": "pantry pasta.",
       "textures": [
         "soft"
       ],
@@ -1485,12 +1365,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "kettle and pan only, with very low cleanup.",
-      "tags": [
-        "couscous",
-        "eggs",
-        "spinach"
-      ],
+      "note": "kettle and pan only.",
       "textures": [
         "soft"
       ],
@@ -1547,13 +1422,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 3,
-      "note": "very soft and good with bread or rice.",
-      "tags": [
-        "beans",
-        "tomato",
-        "soft",
-        "leftovers"
-      ],
+      "note": "good with bread or rice.",
       "textures": [
         "soft"
       ],
@@ -1608,12 +1477,7 @@
       "effort": 1,
       "novelty": 2,
       "servings": 3,
-      "note": "warm and gentle with a little extra flavor.",
-      "tags": [
-        "soup",
-        "lentils",
-        "carrot"
-      ],
+      "note": "one-pot lentil soup.",
       "textures": [
         "soft"
       ],
@@ -1677,12 +1541,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "cool, simple, and no heat required.",
-      "tags": [
-        "no-cook",
-        "chickpeas",
-        "yogurt"
-      ],
+      "note": "no heat required.",
       "textures": [
         "soft",
         "cold",
@@ -1738,12 +1597,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "pantry-based and very quick.",
-      "tags": [
-        "couscous",
-        "tuna",
-        "tomato"
-      ],
+      "note": "very quick couscous bowl.",
       "textures": [
         "soft"
       ],
@@ -1798,12 +1652,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "soft, mild, and reliable.",
-      "tags": [
-        "pasta",
-        "peas",
-        "creaminess"
-      ],
+      "note": "creamy without cream.",
       "textures": [
         "soft"
       ],
@@ -1858,12 +1707,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "steady and inexpensive with simple flavors.",
-      "tags": [
-        "lentils",
-        "carrot",
-        "grain-bowl"
-      ],
+      "note": "low-cost lunch bowl.",
       "textures": [
         "soft"
       ],
@@ -1922,12 +1766,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "simple rice bowl that feels like a full meal.",
-      "tags": [
-        "rice",
-        "spinach",
-        "eggs"
-      ],
+      "note": "rice bowl with egg.",
       "textures": [
         "soft"
       ],
@@ -1992,13 +1831,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 3,
-      "note": "gentle stretch with familiar pantry ingredients.",
-      "tags": [
-        "rice",
-        "chickpeas",
-        "curry",
-        "stretch"
-      ],
+      "note": "tomato-based curry.",
       "textures": [
         "soft"
       ],
@@ -2063,12 +1896,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "a mild stretch if tofu is acceptable.",
-      "tags": [
-        "rice",
-        "tofu",
-        "stretch"
-      ],
+      "note": "tofu and broccoli bowl.",
       "textures": [
         "soft",
         "firm"
@@ -2134,13 +1962,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "a little bolder, but still one pan.",
-      "tags": [
-        "eggs",
-        "tomato",
-        "harissa",
-        "stretch"
-      ],
+      "note": "one-pan eggs.",
       "textures": [
         "soft"
       ],
@@ -2195,12 +2017,7 @@
       "effort": 1,
       "novelty": 3,
       "servings": 2,
-      "note": "slightly sweet-salty and still very easy.",
-      "tags": [
-        "couscous",
-        "chickpeas",
-        "stretch"
-      ],
+      "note": "sweet-savoury couscous.",
       "textures": [
         "soft"
       ],
@@ -2260,12 +2077,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "rich and filling with pantry fish.",
-      "tags": [
-        "mackerel",
-        "potatoes",
-        "stretch"
-      ],
+      "note": "uses one can of mackerel.",
       "textures": [
         "soft"
       ],
@@ -2320,13 +2132,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "a gentle stretch if peanut sauces are comfortable.",
-      "tags": [
-        "noodles",
-        "chickpeas",
-        "peanut",
-        "stretch"
-      ],
+      "note": "peanut sauce noodles.",
       "textures": [
         "soft"
       ],
@@ -2386,13 +2192,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 3,
-      "note": "soft, filling, and slightly richer.",
-      "tags": [
-        "rice",
-        "lentils",
-        "coconut",
-        "stretch"
-      ],
+      "note": "coconut tomato lentils.",
       "textures": [
         "soft"
       ],
@@ -2453,12 +2253,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "vegetable-forward but still familiar.",
-      "tags": [
-        "pasta",
-        "white beans",
-        "courgette"
-      ],
+      "note": "vegetable-forward pasta.",
       "textures": [
         "soft"
       ],
@@ -2520,12 +2315,7 @@
       "effort": 1,
       "novelty": 2,
       "servings": 3,
-      "note": "good leftover meal with a familiar French flavor note.",
-      "tags": [
-        "lentils",
-        "mustard",
-        "salad"
-      ],
+      "note": "good leftover meal.",
       "textures": [
         "soft",
         "crisp"
@@ -2586,12 +2376,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 3,
-      "note": "one-pot and soothing if warm spices are okay.",
-      "tags": [
-        "soup",
-        "lentils",
-        "stretch"
-      ],
+      "note": "warm-spiced lentils.",
       "textures": [
         "soft"
       ],
@@ -2655,13 +2440,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "slightly brighter than basic tomato pasta.",
-      "tags": [
-        "pasta",
-        "sardines",
-        "spinach",
-        "stretch"
-      ],
+      "note": "lemony sardine pasta.",
       "textures": [
         "soft"
       ],
@@ -2722,12 +2501,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 3,
-      "note": "a balanced rice pan with soft vegetables.",
-      "tags": [
-        "rice",
-        "chickpeas",
-        "courgette"
-      ],
+      "note": "soft courgette and chickpeas.",
       "textures": [
         "soft"
       ],
@@ -2792,13 +2566,7 @@
       "effort": 2,
       "novelty": 3,
       "servings": 2,
-      "note": "soft grain bowl with a mild protein stretch.",
-      "tags": [
-        "couscous",
-        "tofu",
-        "peanut",
-        "stretch"
-      ],
+      "note": "peanut sauce couscous.",
       "textures": [
         "soft",
         "firm"
@@ -2860,12 +2628,7 @@
       "effort": 1,
       "novelty": 2,
       "servings": 3,
-      "note": "very manageable and built from low-cost staples.",
-      "tags": [
-        "rice",
-        "beans",
-        "tomato"
-      ],
+      "note": "low-cost pantry meal.",
       "textures": [
         "soft"
       ],
@@ -2926,12 +2689,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "soft textures and good satiety.",
-      "tags": [
-        "potatoes",
-        "eggs",
-        "spinach"
-      ],
+      "note": "potatoes, egg, and spinach.",
       "textures": [
         "soft"
       ],
@@ -2992,13 +2750,7 @@
       "effort": 1,
       "novelty": 2,
       "servings": 3,
-      "note": "hands-off and good for low motivation days.",
-      "tags": [
-        "rice-cooker",
-        "lentils",
-        "tomato",
-        "backup"
-      ],
+      "note": "hands-off rice cooker meal.",
       "textures": [
         "soft"
       ],
@@ -3053,13 +2805,7 @@
       "effort": 1,
       "novelty": 1,
       "servings": 2,
-      "note": "kettle-only backup that feels gentle.",
-      "tags": [
-        "backup",
-        "rescue",
-        "no-cook",
-        "couscous"
-      ],
+      "note": "kettle-only backup.",
       "textures": [
         "soft",
         "cold"
@@ -3116,12 +2862,6 @@
       "novelty": 1,
       "servings": 2,
       "note": "ultra-easy no-cook fallback.",
-      "tags": [
-        "backup",
-        "rescue",
-        "no-cook",
-        "hummus"
-      ],
       "textures": [
         "soft",
         "crisp"
@@ -3175,12 +2915,7 @@
       "effort": 1,
       "novelty": 2,
       "servings": 2,
-      "note": "very cheap and easy to scale.",
-      "tags": [
-        "couscous",
-        "white beans",
-        "tomato"
-      ],
+      "note": "easy to scale.",
       "textures": [
         "soft"
       ],
@@ -3236,12 +2971,7 @@
       "effort": 2,
       "novelty": 2,
       "servings": 2,
-      "note": "a gentle stretch from plain rice and eggs.",
-      "tags": [
-        "rice",
-        "eggs",
-        "carrot"
-      ],
+      "note": "fried-rice style bowl.",
       "textures": [
         "soft"
       ],

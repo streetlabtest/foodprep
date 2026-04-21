@@ -44,23 +44,15 @@ const ratingValue = {
   no: -2,
 };
 
-export const buildHistoryProfile = (checkins = [], recipes = []) => {
+export const buildHistoryProfile = (checkins = []) => {
   const byRecipe = new Map();
-  const byTag = new Map();
-  const recipeMap = new Map(recipes.map((recipe) => [recipe.id, recipe]));
 
   checkins.forEach((entry) => {
     const value = ratingValue[entry.rating] ?? 0;
     byRecipe.set(entry.recipeId, (byRecipe.get(entry.recipeId) || 0) + value);
-    const recipe = recipeMap.get(entry.recipeId);
-    if (recipe) {
-      recipe.tags.forEach((tag) => {
-        byTag.set(tag, (byTag.get(tag) || 0) + value * 0.6);
-      });
-    }
   });
 
-  return { byRecipe, byTag };
+  return { byRecipe };
 };
 
 const hash = (input) => {
@@ -73,14 +65,14 @@ const hash = (input) => {
 };
 
 const safeFoodBoost = (recipe, safeFoods) => {
-  const haystack = [recipe.title, ...recipe.tags, ...recipe.ingredients.map((item) => item.name)]
+  const haystack = [recipe.title, ...recipe.ingredients.map((item) => item.name)]
     .map(normalize)
     .join(' ');
   return safeFoods.reduce((sum, food) => (haystack.includes(food) ? sum + 1.8 : sum), 0);
 };
 
 const includeBoost = (recipe, includeFoods) => {
-  const haystack = [recipe.title, ...recipe.tags, ...recipe.ingredients.map((item) => item.name)]
+  const haystack = [recipe.title, ...recipe.ingredients.map((item) => item.name)]
     .map(normalize)
     .join(' ');
   return includeFoods.reduce((sum, food) => (haystack.includes(food) ? sum + 1.2 : sum), 0);
@@ -89,11 +81,7 @@ const includeBoost = (recipe, includeFoods) => {
 const pantryBoost = (recipe, pantrySet) =>
   recipe.ingredients.reduce((sum, ingredient) => sum + (pantrySet.has(normalize(ingredient.name)) ? 1 : 0), 0);
 
-const historyBoost = (recipe, history) => {
-  const recipeSpecific = history.byRecipe.get(recipe.id) || 0;
-  const tagScore = recipe.tags.reduce((sum, tag) => sum + (history.byTag.get(tag) || 0), 0);
-  return recipeSpecific + tagScore;
-};
+const historyBoost = (recipe, history) => history.byRecipe.get(recipe.id) || 0;
 
 const roleScore = (recipe, role, context) => {
   const { pantrySet, safeFoods, includeFoods, history, weekKey, shuffleIndex, pantryWeight, noveltyWeight } = context;
@@ -121,7 +109,7 @@ export const getWeeklyRecommendations = ({ recipes, prefs, pantryItems, staples,
   const pantrySet = ingredientNameSet(pantryItems, staples);
   const safeFoods = parseCommaList(prefs.safeFoods || '');
   const includeFoods = parseCommaList(prefs.includeIngredients || '');
-  const history = buildHistoryProfile(checkins, recipes);
+  const history = buildHistoryProfile(checkins);
 
   const filtered = recipes.filter((recipe) => !matchesPreferenceExclusions(recipe, prefs));
   const t = adventureLevel / 100;

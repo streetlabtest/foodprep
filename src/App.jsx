@@ -76,10 +76,8 @@ const loadState = () => {
   }
 };
 
-const slotCopy = {
-  familiar: 'familiar/easy',
-  stretch: 'gentle stretch',
-};
+const effortLabel = { 1: 'Easy', 2: 'Moderate' };
+const noveltyLabel = { 1: 'Novelty 1', 2: 'Novelty 2', 3: 'Novelty 3' };
 
 function App() {
   const [state, setState] = useState(defaultState);
@@ -311,11 +309,12 @@ function App() {
             <div className="recipe-grid">
               {recommendations.map(({ recipe, slot }) => {
                 const selected = currentPlan.selectedRecipeIds.includes(recipe.id);
+                const lastRating = latestCheckinByRecipe.get(recipe.id);
                 return (
                   <article key={recipe.id} className={selected ? 'recipe-card selected' : 'recipe-card'}>
                     <div className="recipe-topline">
-                      <span className={`slot-badge ${slot}`}>{slotCopy[slot]}</span>
-                      <span className="effort-chip">{reassuranceLabel(recipe.effort)}</span>
+                      <span className={`attr-badge novelty-${recipe.novelty}`}>{noveltyLabel[recipe.novelty]}</span>
+                      <span className={`attr-badge effort-${recipe.effort}`}>{effortLabel[recipe.effort]}</span>
                     </div>
                     <h3>{recipe.title}</h3>
                     <dl className="facts">
@@ -332,6 +331,8 @@ function App() {
                         <dd>{recipe.servings}</dd>
                       </div>
                     </dl>
+                    {recipe.note && <p className="recipe-note">{recipe.note}</p>}
+
                     <div className="card-actions">
                       <button className="secondary" onClick={() => openRecipeInCookMode(recipe.id)}>Preview</button>
                       <button
@@ -341,10 +342,8 @@ function App() {
                         {selected ? '✓ Chosen' : currentPlan.selectedRecipeIds.length >= 3 ? 'Full' : 'Choose'}
                       </button>
                     </div>
-                    {latestCheckinByRecipe.get(recipe.id) && (
-                      <p className={`checkin-badge checkin-${latestCheckinByRecipe.get(recipe.id)}`}>
-                        Last feedback: {latestCheckinByRecipe.get(recipe.id)}
-                      </p>
+                    {lastRating && (
+                      <p className={`checkin-badge checkin-${lastRating}`}>Last feedback: {lastRating}</p>
                     )}
                   </article>
                 );
@@ -511,7 +510,6 @@ function App() {
               <>
                 <article className="cook-card">
                   <div className="recipe-topline">
-                    <span className="effort-chip">{reassuranceLabel(activeRecipe.effort)}</span>
                     <span className="status-pill">Step {currentPlan.currentStepIndex + 1} of {activeRecipe.steps.length}</span>
                   </div>
                   <h3>{activeRecipe.title}</h3>
