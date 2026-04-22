@@ -464,7 +464,7 @@ function App() {
                           {item.amounts.length > 0 && (
                             <span className="grocery-amount">{item.amounts.join(' + ')}</span>
                           )}
-                          <span>{item.recipes.join(', ')}</span>
+                          <span className="grocery-recipes">{item.recipes.join(', ')}</span>
                         </li>
                       ))}
                     </ul>
@@ -482,7 +482,7 @@ function App() {
                 selectedRecipes.map((recipe) => (
                   <div key={recipe.id} className="mini-card">
                     <strong>{recipe.title}</strong>
-                    <span>{recipe.prepMin} min · {reassuranceLabel(recipe.effort)}</span>
+                    <span>{recipe.prepMin} min · {effortLabel[recipe.effort]}</span>
                   </div>
                 ))
               )}

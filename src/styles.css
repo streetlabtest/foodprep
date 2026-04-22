@@ -491,6 +491,13 @@ textarea {
   margin-bottom: 0.65rem;
 }
 
+.grocery-recipes {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #7a6a58;
+}
+
 .mini-card {
   display: flex;
   flex-direction: column;
